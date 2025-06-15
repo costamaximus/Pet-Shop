@@ -1,0 +1,168 @@
+/*inicio css global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+
+}
+.banner-topo{
+    width: 100%;
+    padding: 120px 80px;
+    background-image: url("img/banner-topo.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.nome-logo{
+    max-width: 250px;
+    color:#3c184e;
+}
+.nome-logo .pata{
+    width: 30px;
+    margin-right: 5px;
+}
+.nome-pet-shop{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.nome-logo .slogan-pet-boutique{
+    font-size: 14px;
+    text-align: center;
+}
+.menu{
+    width: 100%;
+    max-width: 800px;
+    margin:0px 200px;
+}
+.menu a{
+    text-decoration:none;
+    color: #3c184e;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 60px;
+}
+.container-titulo-topo{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding:40px;
+    margin: 70px auto 0px auto;
+    background-color: #ffffffc4;
+    box-shadow: 0px 8px 32px #1f26875e;
+}
+.titulo-topo{
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.link-fale-conosco{
+    width: 200px;
+    padding: 10px 25px 10px 25px;
+    margin: 0px auto 0px auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+.link-fale-conosco a, .watsapp{
+    text-decoration: none;
+    color:#ffff;
+    width: 20px;
+}
+.container-servicos{
+    width: 100%;
+    padding: 0px 80px;
+}
+h3{
+    font-size:36px;
+    color:#3c184e;
+    text-align: center;
+    margin:100px 0px 45px 0px;
+}
+.lista-servicos{
+    max-width:800px;
+    margin:0px auto 50px auto;
+    color:#3c184e;
+}
+.sequencia-lista li{
+    font-size: 20px;
+    margin-bottom: 20px;
+    list-style-type: square;
+}
+span{
+    font-weight: 700;
+    font-style:italic;
+}
+.imagens-servicos{
+    max-width: 800px;
+    margin:0px auto;
+    text-align: center;
+}
+.imagens-servicos img{
+    border-radius:5px;
+    box-shadow:3px 6px 10px 6px #0000005c;
+    
+}
+.container-faixa{
+    padding: 120px 80px;
+    margin-top: 100px;
+    background-color: #3c184e;
+    text-align: center;
+}
+.texto-faixa{
+    max-width: 800px;
+    margin: 0px auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.redes-sociais a img{
+    width:50px;
+    height:50px;
+    margin: 0px 20px;
+}
+.container-marcas{
+    width: 100%;
+    padding: 10px 80px;
+}
+.imagem-marcas{
+    max-width: 800px;
+    margin: 0px 200px;
+}
+.imagem-marcas img{
+    width:148px;
+    height:148px;
+    margin: 0px 15px;
+}
+.container-onde-estamos{
+    width:100%;
+    padding:20px 80px;
+}
+p{
+    font-size:20px;
+    color:#3c184e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+iframe{
+    width:800px;
+    height:450px;
+    padding-bottom:40px;
+    margin:auto;
+    display:block;
+}
+.rodape{
+    width:100%;
+    height:50px;
+    padding: 20px 0px;
+    background-color: #3c184e;
+}
+.texto-rodape{
+    color:#fff;
+    font-size:12px;
+    text-align: center;
+}
+
